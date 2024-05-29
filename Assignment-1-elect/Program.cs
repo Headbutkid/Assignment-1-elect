@@ -15,7 +15,7 @@
 
             //Logic.calc();//Calculation 
             double Charge = Logic.calc(Unit);//returning a internal value which was made public.
-            double Surch = Surcharge.surcharge(Unit);
+            double Surch = Surcharge.surcharge(Charge);
 
             Console.WriteLine("-----Invoice----");
 

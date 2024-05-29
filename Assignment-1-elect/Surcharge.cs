@@ -8,21 +8,21 @@ namespace Assignment_1_elect
 {
     public class Surcharge
     {
-        public static double surcharge(int unit)
+        public static double surcharge(double charge)
         {
 
-            double surch = unit;
+            double Surch = charge;
 
 
-            if (surch >= 400)
+            if (Surch >= 400)
             {
-                surch = unit * 1.15;
+                Surch = charge * 1.15;
             }
-            else if (surch <= 399)
+            else if (Surch <= 399)
             {
-                surch = unit * 0.45;
+                Surch = charge * 0.0;
             }
-            return surch;
+            return Surch;
         }
     }
 }
